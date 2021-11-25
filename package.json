@@ -1,0 +1,12 @@
+{
+  "name": "flappy-bird",
+  "type": "3d",
+  "uuid": "0300c5e0-461e-49a0-b3a9-0e35551efbad",
+  "version": "3.3.2",
+  "creator": {
+    "version": "3.3.2"
+  },
+  "devDependencies": {
+    "prettier": "2.5.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_bird0",
+    "atlas": "",
+    "rect": {
+      "x": 5,
+      "y": 11,
+      "width": 36,
+      "height": 26
+    },
+    "offset": {
+      "x": -1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 48,
+      "height": 48
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "b0f2f530-209b-4efb-96e4-c952dd93db63@6c48a",
+    "packable": true
+  }
+}

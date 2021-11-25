@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_gameOver",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 204,
+      "height": 54
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 204,
+      "height": 54
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "0dc433f4-c4af-443a-853f-a3797512913b@6c48a",
+    "packable": true
+  }
+}

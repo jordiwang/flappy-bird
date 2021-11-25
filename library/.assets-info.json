@@ -1,0 +1,338 @@
+{
+  "/Users/jordiawang/Developer/flappy-bird/assets/Scene.meta": {
+    "time": 1637829406767.1116
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Scene": {
+    "time": 1637829428381.4534,
+    "uuid": "976d010e-2fc8-4df2-9323-6646acc5d070",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Scene/Main.scene.meta": {
+    "time": 1637829413091.0537
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Scene/Main.scene": {
+    "time": 1637843455688.3843,
+    "uuid": "a4ee5fce-5b0c-4277-bd5d-e7d3e35f26ae",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture.meta": {
+    "time": 1637829466068.2385
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture": {
+    "time": 1637829696254.0767,
+    "uuid": "2136b365-60dc-44fc-8f44-dabfd5c0c8c4",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/btn_start.png.meta": {
+    "time": 1637829665493.809
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bg.png.meta": {
+    "time": 1637829665501.1274
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bird0.png.meta": {
+    "time": 1637829665495.734
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bird1.png.meta": {
+    "time": 1637829665494.8289
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bird2.png.meta": {
+    "time": 1637829665511.6384
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_gameOver.png.meta": {
+    "time": 1637829665511.1191
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/pipe_up.png.meta": {
+    "time": 1637829665513.017
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/btn_start.png": {
+    "time": 1637829496154.267,
+    "uuid": "8fe0bceb-d5f1-413a-8685-13b4997a92b0",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bird1.png": {
+    "time": 1637829538133.4673,
+    "uuid": "27fa2deb-bf13-4874-bc74-649386463f1b",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bird0.png": {
+    "time": 1637829628547.7722,
+    "uuid": "b0f2f530-209b-4efb-96e4-c952dd93db63",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bg.png": {
+    "time": 1637829579731.5583,
+    "uuid": "4eabed0f-2b4a-4bf6-b1a2-9786cad642ed",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_gameOver.png": {
+    "time": 1637829651873.6748,
+    "uuid": "0dc433f4-c4af-443a-853f-a3797512913b",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/img_bird2.png": {
+    "time": 1637829642142.8428,
+    "uuid": "6b5f7b19-42cd-4e5d-9ecd-f4a9204aa086",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Texture/pipe_up.png": {
+    "time": 1637829660009.5664,
+    "uuid": "518a9fbf-6d3f-446f-b9cf-b30e9bba3de3",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Script.meta": {
+    "time": 1637829741323.4224
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Script": {
+    "time": 1637833983757.768,
+    "uuid": "2511fb10-c8d8-4fbd-b2a6-cf53ad6e4945",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Animation.meta": {
+    "time": 1637830064018.3333
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Animation": {
+    "time": 1637830126283.1477,
+    "uuid": "e7729448-bdc5-432d-85a6-7d613b8493a4",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Animation/Bird.anim.meta": {
+    "time": 1637830126285.543
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Animation/Bird.anim": {
+    "time": 1637830538987.258,
+    "uuid": "ab813591-9e70-4016-86c1-f4f17763d48f",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Script/MainController.ts.meta": {
+    "time": 1637830821875.0579
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Script/MainController.ts": {
+    "time": 1637843486356.1675,
+    "uuid": "c747dc27-6625-4cf0-b3ab-52d59e5f9f5b",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Prefab.meta": {
+    "time": 1637832806539.1
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Prefab": {
+    "time": 1637837046267.837,
+    "uuid": "9674281f-bb3b-4a98-a2a8-e3ace4b798f1",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Script/BirdController.ts.meta": {
+    "time": 1637833983758.5176
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Script/BirdController.ts": {
+    "time": 1637842694165.4229,
+    "uuid": "162e3816-3cd0-4338-93a1-c5e7380adba2",
+    "missing": false
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Prefab/Pipe.prefab.meta": {
+    "time": 1637837046270.21
+  },
+  "/Users/jordiawang/Developer/flappy-bird/assets/Prefab/Pipe.prefab": {
+    "time": 1637842957960.4211,
+    "uuid": "51ba0579-6c46-487c-affb-f89ffa692d6d",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Animation": {
+    "time": 1637852485772.916,
+    "uuid": "e7729448-bdc5-432d-85a6-7d613b8493a4",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Prefab": {
+    "time": 1637852485783.336,
+    "uuid": "9674281f-bb3b-4a98-a2a8-e3ace4b798f1",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Scene": {
+    "time": 1637852485793.3086,
+    "uuid": "976d010e-2fc8-4df2-9323-6646acc5d070",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script": {
+    "time": 1637858411606.7373,
+    "uuid": "2511fb10-c8d8-4fbd-b2a6-cf53ad6e4945",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture": {
+    "time": 1637859494221.9216,
+    "uuid": "2136b365-60dc-44fc-8f44-dabfd5c0c8c4",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Animation\\Bird.anim": {
+    "time": 1637830538000,
+    "uuid": "ab813591-9e70-4016-86c1-f4f17763d48f",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Prefab\\Pipe.prefab": {
+    "time": 1637842957000,
+    "uuid": "51ba0579-6c46-487c-affb-f89ffa692d6d",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Scene\\Main.scene": {
+    "time": 1637859722523.9338,
+    "uuid": "a4ee5fce-5b0c-4277-bd5d-e7d3e35f26ae",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script\\BirdController.ts": {
+    "time": 1637859170027.6895,
+    "uuid": "162e3816-3cd0-4338-93a1-c5e7380adba2",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script\\MainController.ts": {
+    "time": 1637859855054.3806,
+    "uuid": "c747dc27-6625-4cf0-b3ab-52d59e5f9f5b",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\btn_start.png": {
+    "time": 1637829496000,
+    "uuid": "8fe0bceb-d5f1-413a-8685-13b4997a92b0",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bg.png": {
+    "time": 1637829579000,
+    "uuid": "4eabed0f-2b4a-4bf6-b1a2-9786cad642ed",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bird0.png": {
+    "time": 1637829628000,
+    "uuid": "b0f2f530-209b-4efb-96e4-c952dd93db63",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bird1.png": {
+    "time": 1637829538000,
+    "uuid": "27fa2deb-bf13-4874-bc74-649386463f1b",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bird2.png": {
+    "time": 1637829642000,
+    "uuid": "6b5f7b19-42cd-4e5d-9ecd-f4a9204aa086",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_gameOver.png": {
+    "time": 1637829651000,
+    "uuid": "0dc433f4-c4af-443a-853f-a3797512913b",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\pipe_up.png": {
+    "time": 1637829660000,
+    "uuid": "518a9fbf-6d3f-446f-b9cf-b30e9bba3de3",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Animation.meta": {
+    "time": 1637830064000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Prefab.meta": {
+    "time": 1637832806000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Scene.meta": {
+    "time": 1637829406000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script.meta": {
+    "time": 1637829741000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture.meta": {
+    "time": 1637829466000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script\\BirdController.ts.meta": {
+    "time": 1637833983000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script\\MainController.ts.meta": {
+    "time": 1637830821000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Animation\\Bird.anim.meta": {
+    "time": 1637830126000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Prefab\\Pipe.prefab.meta": {
+    "time": 1637837046000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Scene\\Main.scene.meta": {
+    "time": 1637829413000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\btn_start.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bird0.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bg.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bird1.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_bird2.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\img_gameOver.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\pipe_up.png.meta": {
+    "time": 1637829665000
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio.meta": {
+    "time": 1637856523351.9475
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio": {
+    "time": 1637858058009.387,
+    "uuid": "a5296658-9d2f-4c93-a1f4-f74cd3ebbb97",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\collision.mp3.meta": {
+    "time": 1637857353899.384
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\point.mp3.meta": {
+    "time": 1637857353929.3215
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\swooshing.mp3.meta": {
+    "time": 1637857353979.1714
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\collision.mp3": {
+    "time": 1463829275000,
+    "uuid": "e74bf313-6511-43ff-8bfa-10da82012a0d",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\point.mp3": {
+    "time": 1463829275000,
+    "uuid": "6a33d313-4f3b-435e-a7fc-b44f00557a0f",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\swooshing.mp3": {
+    "time": 1463829275000,
+    "uuid": "736e12e1-5643-4528-be36-211a501876b6",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\rise.mp3.meta": {
+    "time": 1637857353948.2537
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\rise.mp3": {
+    "time": 1463829275000,
+    "uuid": "86e8263d-61ae-46c8-bce4-767b701bbae6",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\end.mp3.meta": {
+    "time": 1637857353845.527
+  },
+  "D:\\Work\\flappy-bird\\assets\\Audio\\end.mp3": {
+    "time": 1463829275000,
+    "uuid": "d9773286-7d5e-49e5-a465-f212362a34aa",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script\\AudioController.ts.meta": {
+    "time": 1637858411610.7268
+  },
+  "D:\\Work\\flappy-bird\\assets\\Script\\AudioController.ts": {
+    "time": 1637859169937.9304,
+    "uuid": "40763cb1-396c-4872-993d-59a0f78fc411",
+    "missing": false
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\title.png.meta": {
+    "time": 1637859673101.4773
+  },
+  "D:\\Work\\flappy-bird\\assets\\Texture\\title.png": {
+    "time": 1637856620966.1255,
+    "uuid": "b9c027cc-987a-4525-9c4f-b67eb29b82c1",
+    "missing": false
+  }
+}
