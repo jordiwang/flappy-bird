@@ -11,17 +11,24 @@
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/AudioController.js",
-    "mTimestamp": 1637859183048
+    "mTimestamp": 1637895083039
   },
   "assets/Script/BirdController.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_2": "assets/Script/AudioController.js",
       "__unresolved_1": "assets/Script/MainController.js",
+      "__unresolved_2": "assets/Script/AudioController.js",
       "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
     },
     "physicalLocation": "fs/0/assets/Script/BirdController.js",
-    "mTimestamp": 1637859183196
+    "mTimestamp": 1637895083176
+  },
+  "assets/Script/MainController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/MainController.js",
+    "mTimestamp": 1637895083121
   },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {
@@ -111,14 +118,9 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1637859282088,
+    "mTimestamp": 1637895082783,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
-  },
-  "quick-pack:/cce/internal/code-quality/cr.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1637859282185
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
@@ -127,15 +129,13 @@
       "__unresolved_2": "assets/Script/MainController.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1637859856467,
+    "mTimestamp": 1637895082856,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
-  "assets/Script/MainController.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/MainController.js",
-    "mTimestamp": 1637859856675
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1637895083191
   }
 }

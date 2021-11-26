@@ -16,6 +16,9 @@
       "__unresolved_1": "./mods/fs/0/assets/Script/MainController.js",
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
     },
+    "./mods/fs/0/assets/Script/MainController.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
     "./mods/cce/internal/x/cc.js": {
       "__unresolved_0": "cce:/internal/x/cc-fu/base",
       "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
@@ -35,12 +38,9 @@
       "__unresolved_15": "cce:/internal/x/cc-fu/dragon-bones"
     },
     "./mods/cce/internal/x/prerequisite-imports.js": {
-      "__unresolved_0": "./mods/fs/0/assets/Script/AudioController.js",
+      "__unresolved_2": "./mods/fs/0/assets/Script/MainController.js",
       "__unresolved_1": "./mods/fs/0/assets/Script/BirdController.js",
-      "__unresolved_2": "./mods/fs/0/assets/Script/MainController.js"
-    },
-    "./mods/fs/0/assets/Script/MainController.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
+      "__unresolved_0": "./mods/fs/0/assets/Script/AudioController.js"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 9587.836400002241,
+    "mTimestamp": 5660.78537940979,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,11 +389,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 601216.3055000007,
+    "mTimestamp": 11030.920997619629,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///D:/Work/flappy-bird/assets/Script/AudioController.ts",
+        "value": "file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -402,35 +402,35 @@
           },
           "end": {
             "line": 5,
-            "column": 97
+            "column": 110
           }
         }
       },
       {
-        "value": "file:///D:/Work/flappy-bird/assets/Script/BirdController.ts",
+        "value": "file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 5,
-            "column": 113
+            "column": 126
           },
           "end": {
             "line": 5,
-            "column": 174
+            "column": 200
           }
         }
       },
       {
-        "value": "file:///D:/Work/flappy-bird/assets/Script/MainController.ts",
+        "value": "file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
             "line": 5,
-            "column": 190
+            "column": 216
           },
           "end": {
             "line": 5,
-            "column": 251
+            "column": 290
           }
         }
       }
@@ -441,15 +441,15 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///D:/Work/flappy-bird/assets/Script/AudioController.ts"
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Work/flappy-bird/assets/Script/BirdController.ts"
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Work/flappy-bird/assets/Script/MainController.ts"
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts"
       }
     ]
   },
@@ -550,7 +550,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1637859255339,
+    "mTimestamp": 1637895071799,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -724,6 +724,155 @@
           "end": {
             "line": 1,
             "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts": {
+    "mTimestamp": 1637893657050.8975,
+    "chunkId": "assets/Script/AudioController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 68
+          },
+          "end": {
+            "line": 1,
+            "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts": {
+    "mTimestamp": 1637893657051.1875,
+    "chunkId": "assets/Script/BirdController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 125
+          },
+          "end": {
+            "line": 1,
+            "column": 129
+          }
+        }
+      },
+      {
+        "value": "./MainController",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 43
+          },
+          "end": {
+            "line": 4,
+            "column": 61
+          }
+        }
+      },
+      {
+        "value": "./AudioController",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 44
+          },
+          "end": {
+            "line": 5,
+            "column": 63
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts"
+      }
+    ]
+  },
+  "file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts": {
+    "mTimestamp": 1637893657051.5315,
+    "chunkId": "assets/Script/MainController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 100
+          },
+          "end": {
+            "line": 1,
+            "column": 104
           }
         }
       }

@@ -334,5 +334,213 @@
     "time": 1637856620966.1255,
     "uuid": "b9c027cc-987a-4525-9c4f-b67eb29b82c1",
     "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation": {
+    "time": 1637893657046.6216,
+    "uuid": "e7729448-bdc5-432d-85a6-7d613b8493a4",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio": {
+    "time": 1637893657049.3127,
+    "uuid": "a5296658-9d2f-4c93-a1f4-f74cd3ebbb97",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Prefab": {
+    "time": 1637893657049.9255,
+    "uuid": "9674281f-bb3b-4a98-a2a8-e3ace4b798f1",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Scene": {
+    "time": 1637895124625.884,
+    "uuid": "976d010e-2fc8-4df2-9323-6646acc5d070",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script": {
+    "time": 1637893657051.6099,
+    "uuid": "2511fb10-c8d8-4fbd-b2a6-cf53ad6e4945",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture": {
+    "time": 1637893657054.233,
+    "uuid": "2136b365-60dc-44fc-8f44-dabfd5c0c8c4",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Bird.anim": {
+    "time": 1637893657046.5342,
+    "uuid": "ab813591-9e70-4016-86c1-f4f17763d48f",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/collision.mp3": {
+    "time": 1637893657047.1846,
+    "uuid": "e74bf313-6511-43ff-8bfa-10da82012a0d",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/end.mp3": {
+    "time": 1637893657047.6687,
+    "uuid": "d9773286-7d5e-49e5-a465-f212362a34aa",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/point.mp3": {
+    "time": 1637893657048.1843,
+    "uuid": "6a33d313-4f3b-435e-a7fc-b44f00557a0f",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/rise.mp3": {
+    "time": 1637893657048.5364,
+    "uuid": "86e8263d-61ae-46c8-bce4-767b701bbae6",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/swooshing.mp3": {
+    "time": 1637893657049.1912,
+    "uuid": "736e12e1-5643-4528-be36-211a501876b6",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Prefab/Pipe.prefab": {
+    "time": 1637893657049.7874,
+    "uuid": "51ba0579-6c46-487c-affb-f89ffa692d6d",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Scene/Main.scene": {
+    "time": 1637893657050.3967,
+    "uuid": "a4ee5fce-5b0c-4277-bd5d-e7d3e35f26ae",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/AudioController.ts": {
+    "time": 1637893657050.8975,
+    "uuid": "40763cb1-396c-4872-993d-59a0f78fc411",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/BirdController.ts": {
+    "time": 1637893657051.1875,
+    "uuid": "162e3816-3cd0-4338-93a1-c5e7380adba2",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/MainController.ts": {
+    "time": 1637893657051.5315,
+    "uuid": "c747dc27-6625-4cf0-b3ab-52d59e5f9f5b",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/btn_start.png": {
+    "time": 1637893657052.0378,
+    "uuid": "8fe0bceb-d5f1-413a-8685-13b4997a92b0",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bg.png": {
+    "time": 1637893657052.3625,
+    "uuid": "4eabed0f-2b4a-4bf6-b1a2-9786cad642ed",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bird0.png": {
+    "time": 1637893657052.7175,
+    "uuid": "b0f2f530-209b-4efb-96e4-c952dd93db63",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bird1.png": {
+    "time": 1637893657052.9866,
+    "uuid": "27fa2deb-bf13-4874-bc74-649386463f1b",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bird2.png": {
+    "time": 1637893657053.239,
+    "uuid": "6b5f7b19-42cd-4e5d-9ecd-f4a9204aa086",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_gameOver.png": {
+    "time": 1637893657053.5178,
+    "uuid": "0dc433f4-c4af-443a-853f-a3797512913b",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/pipe_up.png": {
+    "time": 1637893657053.8774,
+    "uuid": "518a9fbf-6d3f-446f-b9cf-b30e9bba3de3",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/title.png": {
+    "time": 1637893657054.1606,
+    "uuid": "b9c027cc-987a-4525-9c4f-b67eb29b82c1",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation.meta": {
+    "time": 1637893657046.2373
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio.meta": {
+    "time": 1637893657046.8262
+  },
+  "/Users/point/projects/flappy-bird/assets/Prefab.meta": {
+    "time": 1637893657049.5583
+  },
+  "/Users/point/projects/flappy-bird/assets/Scene.meta": {
+    "time": 1637893657050.1233
+  },
+  "/Users/point/projects/flappy-bird/assets/Script.meta": {
+    "time": 1637893657050.6838
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture.meta": {
+    "time": 1637893657051.7917
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Bird.anim.meta": {
+    "time": 1637893657046.6821
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/rise.mp3.meta": {
+    "time": 1637893657048.7207
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/collision.mp3.meta": {
+    "time": 1637893657047.3997
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/point.mp3.meta": {
+    "time": 1637893657048.3298
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/end.mp3.meta": {
+    "time": 1637893657047.8218
+  },
+  "/Users/point/projects/flappy-bird/assets/Audio/swooshing.mp3.meta": {
+    "time": 1637893657049.4097
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/AudioController.ts.meta": {
+    "time": 1637893657051.0405
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/BirdController.ts.meta": {
+    "time": 1637893657051.3748
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/MainController.ts.meta": {
+    "time": 1637893657051.6648
+  },
+  "/Users/point/projects/flappy-bird/assets/Prefab/Pipe.prefab.meta": {
+    "time": 1637893657049.9812
+  },
+  "/Users/point/projects/flappy-bird/assets/Scene/Main.scene.meta": {
+    "time": 1637893657050.5586
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/btn_start.png.meta": {
+    "time": 1637893657052.18
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bird0.png.meta": {
+    "time": 1637893657052.8506
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bird1.png.meta": {
+    "time": 1637893657053.1123
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bird2.png.meta": {
+    "time": 1637893657053.3594
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_bg.png.meta": {
+    "time": 1637893657052.5305
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/img_gameOver.png.meta": {
+    "time": 1637893657053.66
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/pipe_up.png.meta": {
+    "time": 1637893657054.0127
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/title.png.meta": {
+    "time": 1637893657054.288
+  },
+  "/Users/point/projects/flappy-bird/assets/Scene/Toca.scene.meta": {
+    "time": 1637895099935.7786
+  },
+  "/Users/point/projects/flappy-bird/assets/Scene/Toca.scene": {
+    "time": 1637895136771.8848,
+    "uuid": "6c7e915c-a5a0-4dfc-bcad-342a6f05a235",
+    "missing": false
   }
 }

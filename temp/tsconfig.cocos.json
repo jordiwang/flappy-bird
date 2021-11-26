@@ -6,15 +6,15 @@
     "strict": true,
     "types": [
       "./temp/declarations/jsb",
-      "./temp/declarations/cc",
-      "./temp/declarations/cc.env"
+      "./temp/declarations/cc.env",
+      "./temp/declarations/cc"
     ],
     "paths": {
       "db://internal/*": [
-        "D:\\CocosCreator-v3.3.2-win32-100820\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/CocosCreator/Creator/3.3.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "D:\\Work\\flappy-bird\\assets\\*"
+        "/Users/point/projects/flappy-bird/assets/*"
       ]
     },
     "experimentalDecorators": true,
