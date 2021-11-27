@@ -1,74 +1,38 @@
 {
-  "ver": "1.0.21",
-  "importer": "image",
-  "imported": true,
-  "uuid": "27fa2deb-bf13-4874-bc74-649386463f1b",
-  "files": [
-    ".png",
-    ".json"
-  ],
+  "ver": "2.3.7",
+  "uuid": "6ff21a14-092c-4c32-bcc2-7e5594bebbc6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 48,
+  "height": 48,
+  "platformSettings": {},
   "subMetas": {
-    "6c48a": {
-      "importer": "texture",
-      "uuid": "27fa2deb-bf13-4874-bc74-649386463f1b@6c48a",
-      "displayName": "img_bird1",
-      "id": "6c48a",
-      "name": "texture",
-      "userData": {
-        "wrapModeS": "clamp-to-edge",
-        "wrapModeT": "clamp-to-edge",
-        "imageUuidOrDatabaseUri": "27fa2deb-bf13-4874-bc74-649386463f1b",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": true
-      },
-      "ver": "1.0.21",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "f9941": {
+    "img_bird1": {
+      "ver": "1.0.6",
+      "uuid": "4ca6d568-a8da-4446-aaf6-ad103a7bd5af",
       "importer": "sprite-frame",
-      "uuid": "27fa2deb-bf13-4874-bc74-649386463f1b@f9941",
-      "displayName": "img_bird1",
-      "id": "f9941",
-      "name": "spriteFrame",
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": -1,
-        "offsetY": 0,
-        "trimX": 5,
-        "trimY": 11,
-        "width": 36,
-        "height": 26,
-        "rawWidth": 48,
-        "rawHeight": 48,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "packable": true,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "27fa2deb-bf13-4874-bc74-649386463f1b@6c48a",
-        "atlasUuid": ""
-      },
-      "ver": "1.0.9",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
+      "rawTextureUuid": "6ff21a14-092c-4c32-bcc2-7e5594bebbc6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0,
+      "trimX": 5,
+      "trimY": 11,
+      "width": 36,
+      "height": 26,
+      "rawWidth": 48,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
       "subMetas": {}
     }
-  },
-  "userData": {
-    "type": "sprite-frame",
-    "hasAlpha": true,
-    "redirect": "27fa2deb-bf13-4874-bc74-649386463f1b@f9941"
   }
 }

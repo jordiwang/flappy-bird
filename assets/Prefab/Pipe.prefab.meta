@@ -1,13 +1,9 @@
 {
-  "ver": "1.1.32",
+  "ver": "1.3.2",
+  "uuid": "9822134c-4b91-4ebe-84c5-980631cc9c78",
   "importer": "prefab",
-  "imported": true,
-  "uuid": "51ba0579-6c46-487c-affb-f89ffa692d6d",
-  "files": [
-    ".json"
-  ],
-  "subMetas": {},
-  "userData": {
-    "syncNodeName": "Pipe"
-  }
+  "optimizationPolicy": "AUTO",
+  "asyncLoadAssets": false,
+  "readonly": false,
+  "subMetas": {}
 }
