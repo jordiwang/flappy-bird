@@ -10,7 +10,7 @@
   "excluded-modules": [
     "3D Physics/Builtin"
   ],
-  "preview-port": 7456,
+  "preview-port": 8000,
   "design-resolution-width": 1624,
   "design-resolution-height": 750,
   "fit-width": true,

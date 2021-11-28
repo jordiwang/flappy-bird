@@ -140,6 +140,8 @@ export class MainController extends cc.Component {
         this.gameOverSprite.node.active = true;
 
         this.tocaButton.node.active = true;
+
+        this.buttonStart.node.active = true;
     }
 
     addScore() {
