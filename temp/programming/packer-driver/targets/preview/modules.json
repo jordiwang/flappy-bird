@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 5664.20051574707,
+    "mTimestamp": 6285.603717803955,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -299,7 +299,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 11509.101457595825,
+    "mTimestamp": 188286982.80243683,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -343,6 +343,48 @@
             "column": 81
           }
         }
+      },
+      {
+        "value": "file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 88
+          }
+        }
+      },
+      {
+        "value": "file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 88
+          }
+        }
+      },
+      {
+        "value": "file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 90
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -360,6 +402,18 @@
       {
         "isExternal": false,
         "url": "file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts"
       }
     ]
   },
@@ -460,7 +514,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1637895071799,
+    "mTimestamp": 1637910766500,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -783,6 +837,111 @@
           "end": {
             "line": 1,
             "column": 72
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts": {
+    "mTimestamp": 1637917506514.0479,
+    "chunkId": "assets/Script/Toca/TocaMainController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts": {
+    "mTimestamp": 1638098660934.089,
+    "chunkId": "assets/Script/Toca/TocaBgController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts": {
+    "mTimestamp": 1638099056536.35,
+    "chunkId": "assets/Script/Toca/BoxCatController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 74
+          },
+          "end": {
+            "line": 2,
+            "column": 78
           }
         }
       }

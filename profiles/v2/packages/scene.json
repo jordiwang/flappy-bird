@@ -73,8 +73,8 @@
     },
     "a4ee5fce-5b0c-4277-bd5d-e7d3e35f26ae": {
       "position": {
-        "x": 114,
-        "y": 256,
+        "x": 368,
+        "y": 207,
         "z": 5000
       },
       "rotation": {
@@ -91,8 +91,8 @@
     },
     "6c7e915c-a5a0-4dfc-bcad-342a6f05a235": {
       "position": {
-        "x": 114,
-        "y": 256,
+        "x": 368,
+        "y": 207,
         "z": 5000
       },
       "rotation": {
@@ -109,6 +109,6 @@
     }
   },
   "camera-uuids": [
-    "6c7e915c-a5a0-4dfc-bcad-342a6f05a235"
+    "a4ee5fce-5b0c-4277-bd5d-e7d3e35f26ae"
   ]
 }

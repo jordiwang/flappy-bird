@@ -1,67 +1,106 @@
-2021-11-26 10:51:13-log: [Package] menu@1.0.0 enable
-2021-11-26 10:51:13-log: [Package] profile@1.0.0 enable
-2021-11-26 10:51:13-log: [Package] messages@1.0.0 enable
-2021-11-26 10:51:13-log: [Package] program@1.0.0 enable
-2021-11-26 10:51:14-log: [Package] device@1.0.1 enable
-2021-11-26 10:51:14-log: [Package] ui-kit@1.0.1 enable
-2021-11-26 10:51:14-log: [Package] tester@1.0.0 enable
-2021-11-26 10:51:14-log: [Package] preferences@1.0.0 enable
-2021-11-26 10:51:14-log: Setup mods mgr.: 273.872ms
-2021-11-26 10:51:14-log: [Package] engine@1.0.5 enable
-2021-11-26 10:51:17-log: [Package] programming@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] asset-db@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] console@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] scene@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] project@1.0.1 enable
-2021-11-26 10:51:17-log: [Package] about@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] server@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] utils@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] assets@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] inspector@1.0.0 enable
-2021-11-26 10:51:17-log: [Package] hierarchy@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] preview@1.0.1 enable
-2021-11-26 10:51:19-log: [Package] animator@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] builder@1.2.9 enable
-2021-11-26 10:51:19-log: [Package] node-library@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] shortcuts@1.0.1 enable
-2021-11-26 10:51:19-log: [Package] package-asset@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] reference-image@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] channel-upload-tools@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] runtime-dev-tools@1.0.0 enable
-2021-11-26 10:51:19-log: [Package] alipay-mini-game@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] android@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] baidu-mini-game@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] bytedance-mini-game@1.0.1 enable
-2021-11-26 10:51:20-log: [Package] huawei-agc@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] ios@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] ios-app-clip@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] mac@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] native@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] ohos@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] web-desktop@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] web-mobile@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] wechatgame@1.0.1 enable
-2021-11-26 10:51:20-log: [Package] windows@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] xiaomi-quick-game@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] cocos-play@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] huawei-quick-game@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] link-sure@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] oppo-mini-game@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] qtt@1.0.0 enable
-2021-11-26 10:51:20-log: [Package] vivo-mini-game@1.0.0 enable
-2021-11-26 10:51:21-log: [Package] cocos-service@3.0.1 enable
-2021-11-26 10:51:21-log: [Package] importer@1.0.0 enable
-2021-11-26 10:51:21-log: [Package] extension@3.0.10 enable
-2021-11-26 10:51:21-log: [Im-plugin] Check im-plugin version.
-2021-11-26 10:51:21-log: [Package] im-plugin@3.0.7 enable
-2021-11-26 10:51:21-log: [Package] lightmap@1.0.3 enable
-2021-11-26 10:51:22-log: [Im-plugin] No online info of im-plugin.
-2021-11-26 10:51:23-log: [Scene] begin init
-2021-11-26 10:51:23-log: [Scene] require engine end
-2021-11-26 10:51:23-log: [Scene] Serialize end
-2021-11-26 10:51:23-log: [Scene] configureStartup end
-2021-11-26 10:51:23-info: [Scene] WebGL2 device initialized.
-2021-11-26 10:51:23-log: [Scene] Cocos Creator v3.3.2
-2021-11-26 10:51:23-info: [Scene] Forward render pipeline initialized.
-2021-11-26 10:51:23-log: [Scene] openEngine end
-2021-11-26 10:51:23-log: [Scene] configureEngine end
+2021-11-26 15:12:48-log: [Package] menu@1.0.0 enable
+2021-11-26 15:12:48-log: [Package] profile@1.0.0 enable
+2021-11-26 15:12:48-log: [Package] messages@1.0.0 enable
+2021-11-26 15:12:48-log: [Package] program@1.0.0 enable
+2021-11-26 15:12:48-log: [Package] device@1.0.1 enable
+2021-11-26 15:12:48-log: [Package] ui-kit@1.0.1 enable
+2021-11-26 15:12:48-log: [Package] tester@1.0.0 enable
+2021-11-26 15:12:49-log: [Package] preferences@1.0.0 enable
+2021-11-26 15:12:49-log: Setup mods mgr.: 306.422ms
+2021-11-26 15:12:49-log: [Package] engine@1.0.5 enable
+2021-11-26 15:12:52-log: [Package] programming@1.0.0 enable
+2021-11-26 15:12:52-log: [Package] asset-db@1.0.0 enable
+2021-11-26 15:12:52-log: [Package] console@1.0.0 enable
+2021-11-26 15:12:52-log: [Package] scene@1.0.0 enable
+2021-11-26 15:12:52-log: [Package] project@1.0.1 enable
+2021-11-26 15:12:52-log: [Package] about@1.0.0 enable
+2021-11-26 15:12:53-log: [Package] server@1.0.0 enable
+2021-11-26 15:12:53-log: [Package] utils@1.0.0 enable
+2021-11-26 15:12:53-log: [Package] assets@1.0.0 enable
+2021-11-26 15:12:53-log: [Package] inspector@1.0.0 enable
+2021-11-26 15:12:53-log: [Package] hierarchy@1.0.0 enable
+2021-11-26 15:12:54-log: [Package] preview@1.0.1 enable
+2021-11-26 15:12:55-log: [Package] animator@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] builder@1.2.9 enable
+2021-11-26 15:12:55-log: [Package] node-library@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] shortcuts@1.0.1 enable
+2021-11-26 15:12:55-log: [Package] package-asset@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] reference-image@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] channel-upload-tools@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] alipay-mini-game@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] android@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] baidu-mini-game@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] bytedance-mini-game@1.0.1 enable
+2021-11-26 15:12:55-log: [Package] huawei-agc@1.0.0 enable
+2021-11-26 15:12:55-log: [Package] ios@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] ios-app-clip@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] mac@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] native@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] ohos@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] web-desktop@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] web-mobile@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] wechatgame@1.0.1 enable
+2021-11-26 15:12:56-log: [Package] windows@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] cocos-play@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] huawei-quick-game@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] link-sure@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] oppo-mini-game@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] qtt@1.0.0 enable
+2021-11-26 15:12:56-log: [Package] vivo-mini-game@1.0.0 enable
+2021-11-26 15:12:57-log: [Package] cocos-service@3.0.1 enable
+2021-11-26 15:12:57-log: [Package] importer@1.0.0 enable
+2021-11-26 15:12:57-log: [Package] extension@3.0.10 enable
+2021-11-26 15:12:57-log: [Im-plugin] Check im-plugin version.
+2021-11-26 15:12:57-log: [Package] im-plugin@3.0.7 enable
+2021-11-26 15:12:57-log: [Package] lightmap@1.0.3 enable
+2021-11-26 15:12:58-log: [Im-plugin] No online info of im-plugin.
+2021-11-26 15:12:59-log: [Scene] begin init
+2021-11-26 15:12:59-log: [Scene] require engine end
+2021-11-26 15:12:59-log: [Scene] Serialize end
+2021-11-26 15:12:59-log: [Scene] configureStartup end
+2021-11-26 15:12:59-info: [Scene] WebGL2 device initialized.
+2021-11-26 15:12:59-log: [Scene] Cocos Creator v3.3.2
+2021-11-26 15:12:59-info: [Scene] Forward render pipeline initialized.
+2021-11-26 15:12:59-log: [Scene] openEngine end
+2021-11-26 15:12:59-log: [Scene] configureEngine end
+2021-11-26 15:15:06-log: [Scene] don't support this function in current mode general queryAnimationPropValueAtFrame
+2021-11-26 17:49:19-error: [Build] Get meta of script {asset(db://assets/Script/AudioController.ts)} failed!
+2021-11-26 17:49:19-error: [Build] Get asset info of script {asset(162e3816-3cd0-4338-93a1-c5e7380adba2)} failed!
+2021-11-26 17:49:19-error: [Build] Get asset info of script {asset(c747dc27-6625-4cf0-b3ab-52d59e5f9f5b)} failed!
+2021-11-26 17:51:27-error: [Build] Get meta of script {asset(db://assets/Script/AudioController.ts)} failed!
+2021-11-26 17:51:27-error: [Build] Get asset info of script {asset(162e3816-3cd0-4338-93a1-c5e7380adba2)} failed!
+2021-11-26 17:55:08-error: [Build] Get meta of script {asset(db://assets/Script/BirdController.ts)} failed!
+2021-11-26 17:55:08-error: [Build] Get asset info of script {asset(c747dc27-6625-4cf0-b3ab-52d59e5f9f5b)} failed!
+2021-11-26 17:55:08-error: [Build] Get asset info of script {asset(34e5629a-2f7f-496a-8292-d6ff4689db34)} failed!
+2021-11-26 17:55:16-error: [Build] Get meta of script {asset(db://assets/Script/AudioController.ts)} failed!
+2021-11-26 17:55:16-error: [Build] Get asset info of script {asset(162e3816-3cd0-4338-93a1-c5e7380adba2)} failed!
+2021-11-28 17:12:41-error: [preview-error]Uncaught TypeError: Cannot read properties of undefined (reading 'getLocationX') in http://localhost:7456/scripting/x/mods/fs/0/assets/Script/Toca/TocaBgController.js
+2021-11-28 17:28:57-error: [preview-error]Uncaught TypeError: touch.getUILocationX is not a function in http://localhost:7456/scripting/x/mods/fs/0/assets/Script/Toca/TocaBgController.js
+2021-11-28 17:29:26-error: [preview-error]Uncaught TypeError: touch.getUILocationX is not a function in http://localhost:7456/scripting/x/mods/fs/0/assets/Script/Toca/TocaBgController.js
+2021-11-28 17:36:35-log: [Scene] don't support this function in current mode general queryAnimationPropValueAtFrame
+2021-11-28 17:37:33-log: [Scene] don't support this function in current mode general setCurEditTime
+2021-11-28 17:41:32-error: Message response error: Cannot read property 'scale.z' of undefined
+2021-11-28 17:41:31-error: [Window] [Vue warn]: Error in render: "TypeError: Cannot read property 'scale.z' of null"
+
+(found in <Root>)
+2021-11-28 17:41:31-error: [Window] Cannot read property 'scale.z' of null
+2021-11-28 17:41:32-error: [Window] [Vue warn]: Error in render: "TypeError: Cannot read property 'scale.z' of null"
+
+(found in <Root>)
+2021-11-28 17:41:32-error: [Window] Cannot read property 'scale.z' of null
+2021-11-28 17:42:06-error: [Window] [Vue warn]: Error in render: "TypeError: Cannot read property 'scale.z' of null"
+
+(found in <Root>)
+2021-11-28 17:42:06-error: [Window] Cannot read property 'scale.z' of null
+2021-11-28 17:43:44-log: [Scene] don't support this function in current mode general setCurEditTime
+2021-11-28 17:50:54-log: [Scene] don't support this function in current mode general queryAnimationPropValueAtFrame
+2021-11-28 17:51:30-log: [Scene] don't support this function in current mode general queryAnimationPropValueAtFrame
+2021-11-28 17:53:59-log: [Scene] don't support this function in current mode general queryAnimationPropValueAtFrame
+2021-11-28 17:55:51-log: [Scene] don't support this function in current mode general queryAnimationPropValueAtFrame
+2021-11-28 17:58:13-log: [Scene] don't support this function in current mode general setCurEditTime
+2021-11-28 18:07:33-log: [Scene] don't support this function in current mode general setCurEditTime
+2021-11-28 18:09:23-log: [Scene] don't support this function in current mode general setCurEditTime
+2021-11-28 18:10:38-log: [Scene] don't support this function in current mode general setCurEditTime
+2021-11-28 18:12:09-log: [Scene] don't support this function in current mode general setCurEditTime

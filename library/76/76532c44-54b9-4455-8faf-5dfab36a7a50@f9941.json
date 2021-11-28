@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boxCat",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 497
+    },
+    "offset": {
+      "x": -0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 401,
+      "height": 497
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "76532c44-54b9-4455-8faf-5dfab36a7a50@6c48a",
+    "packable": true
+  }
+}

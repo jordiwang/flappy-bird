@@ -336,7 +336,7 @@
     "missing": false
   },
   "/Users/point/projects/flappy-bird/assets/Animation": {
-    "time": 1637893657046.6216,
+    "time": 1638092314535.666,
     "uuid": "e7729448-bdc5-432d-85a6-7d613b8493a4",
     "missing": false
   },
@@ -351,17 +351,17 @@
     "missing": false
   },
   "/Users/point/projects/flappy-bird/assets/Scene": {
-    "time": 1637895124625.884,
+    "time": 1637897204705.43,
     "uuid": "976d010e-2fc8-4df2-9323-6646acc5d070",
     "missing": false
   },
   "/Users/point/projects/flappy-bird/assets/Script": {
-    "time": 1637893657051.6099,
+    "time": 1637914985850.2188,
     "uuid": "2511fb10-c8d8-4fbd-b2a6-cf53ad6e4945",
     "missing": false
   },
   "/Users/point/projects/flappy-bird/assets/Texture": {
-    "time": 1637893657054.233,
+    "time": 1637897482238.063,
     "uuid": "2136b365-60dc-44fc-8f44-dabfd5c0c8c4",
     "missing": false
   },
@@ -401,7 +401,7 @@
     "missing": false
   },
   "/Users/point/projects/flappy-bird/assets/Scene/Main.scene": {
-    "time": 1637893657050.3967,
+    "time": 1637897204705.157,
     "uuid": "a4ee5fce-5b0c-4277-bd5d-e7d3e35f26ae",
     "missing": false
   },
@@ -536,11 +536,115 @@
     "time": 1637893657054.288
   },
   "/Users/point/projects/flappy-bird/assets/Scene/Toca.scene.meta": {
-    "time": 1637895099935.7786
+    "time": 1637895761385.738
   },
   "/Users/point/projects/flappy-bird/assets/Scene/Toca.scene": {
-    "time": 1637895136771.8848,
+    "time": 1638099160002.4624,
     "uuid": "6c7e915c-a5a0-4dfc-bcad-342a6f05a235",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca.meta": {
+    "time": 1637897482238.8083
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca": {
+    "time": 1637897510420.1135,
+    "uuid": "20b46e06-1094-4e69-9a71-2a0b2d8f3075",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/bg.PNG.meta": {
+    "time": 1637897533781.7363
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/boxCat.PNG.meta": {
+    "time": 1638089579200.304
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/camera.PNG.meta": {
+    "time": 1637897510433.2402
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/gamepad.PNG.meta": {
+    "time": 1637897510435.9006
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/suitcase.PNG.meta": {
+    "time": 1637897510435.3794
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/boxCat.PNG": {
+    "time": 1637826332000,
+    "uuid": "76532c44-54b9-4455-8faf-5dfab36a7a50",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/camera.PNG": {
+    "time": 1637825898000,
+    "uuid": "d80d9d00-a57f-4ae2-91fa-08fd8999b0d0",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/suitcase.PNG": {
+    "time": 1637826362000,
+    "uuid": "9a694dc4-89a6-4521-8b56-5888fc94055a",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/gamepad.PNG": {
+    "time": 1637826534000,
+    "uuid": "f3b730e1-e44a-4ba5-a439-417bc9bd4b6d",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Texture/Toca/bg.PNG": {
+    "time": 1637225014000,
+    "uuid": "58b78723-6223-4713-b1b8-72a08ac9971d",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca.meta": {
+    "time": 1637914985855.0718
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca": {
+    "time": 1638091970975.2654,
+    "uuid": "8671944b-cfb1-4c94-bfa4-5535c026469e",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.meta": {
+    "time": 1637915061219.9495
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts": {
+    "time": 1637917506514.0479,
+    "uuid": "34e5629a-2f7f-496a-8292-d6ff4689db34",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.meta": {
+    "time": 1637915327021.8232
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts": {
+    "time": 1638098660934.089,
+    "uuid": "8c7eaf62-b497-48a5-a04f-82c1d65d076a",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.meta": {
+    "time": 1638091970976.9573
+  },
+  "/Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts": {
+    "time": 1638099056536.35,
+    "uuid": "a39db2f5-5ef8-4264-8d94-02293edd353f",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Toca.meta": {
+    "time": 1638092314537.0515
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Toca": {
+    "time": 1638093987124.2122,
+    "uuid": "4e9590ff-6933-4630-b758-e78d67a3455d",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Toca/BoxCat_1.anim.meta": {
+    "time": 1638092491980.0642
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Toca/BoxCat_1.anim": {
+    "time": 1638094049477.4214,
+    "uuid": "a89f1d7d-4a94-4b1a-9df3-07810b50c443",
+    "missing": false
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Toca/BoxCat_2.anim.meta": {
+    "time": 1638093987126.5613
+  },
+  "/Users/point/projects/flappy-bird/assets/Animation/Toca/BoxCat_2.anim": {
+    "time": 1638094328619.2341,
+    "uuid": "fec66b4d-019c-4d53-88c3-2f8e69db8b96",
     "missing": false
   }
 }

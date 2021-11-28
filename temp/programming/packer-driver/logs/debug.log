@@ -1,23 +1,23 @@
-debug: Fri, 26 Nov 2021 02:51:17 GMT
+debug: Fri, 26 Nov 2021 07:12:52 GMT
 debug: Project: /Users/point/projects/flappy-bird
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/CocosCreator/Creator/3.3.2/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 2.0721797943115234ms.
+debug: Loading cache costs 4.844074249267578ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 2.2901554107666016ms.
+debug: Loading cache costs 3.3582935333251953ms.
 debug: Sync engine features: base,gfx-webgl,2d,ui,physics-2d-builtin,intersection-2d,profiler,particle-2d,audio,video,webview,tween,tiled-map,spine,dragon-bones
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 12.82264518737793ms.
+debug: Fetch asset-db cost: 16.563316345214844ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 3
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -40,28 +40,16 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
-debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
 debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
-debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts
-debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts
-debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts as cce:/internal/x/cc.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as cce:/internal/x/cc.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Nov 26 2021 00:54:15 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 10:51:11 GMT+0800 (中国标准时间)
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Nov 26 2021 11:27:13 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 15:12:46 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts as cce:/internal/x/cc.
-debug: Resolve ./MainController from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
-debug: Resolve ./AudioController from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
-debug: Target(editor) ends with cost 477.78416442871094ms.
+debug: Target(editor) ends with cost 150.4302864074707ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -79,23 +67,1127 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
 debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
 debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
-debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts
-debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts
-debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts as cce:/internal/x/cc.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as cce:/internal/x/cc.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Nov 26 2021 00:54:15 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 10:51:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Nov 26 2021 11:27:13 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 15:12:46 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts as cce:/internal/x/cc.
-debug: Resolve ./AudioController from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
-debug: Resolve ./MainController from file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
-debug: Target(preview) ends with cost 325.2598056793213ms.
+debug: Target(preview) ends with cost 93.51103782653809ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:11:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 67.00269889831543ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:11:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 229.37773513793945ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:11:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:16:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 42.596548080444336ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:11:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:16:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 69.18797874450684ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:16:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:34:52 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:24:21 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:40:27 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 138.40483474731445ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:16:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:34:52 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:24:21 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:40:27 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 92.22226524353027ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:34:52 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:43:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:40:27 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:55:47 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 61.5565185546875ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:34:52 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:43:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:40:27 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:55:47 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 80.18440437316895ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:43:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:45:42 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:55:47 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:58:27 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 54.24290657043457ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:43:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:45:42 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:55:47 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:58:27 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 81.00088500976562ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:45:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:46:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:58:27 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:58:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 48.12637710571289ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:45:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:46:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:58:27 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 16:58:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 71.57455062866211ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:46:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:53:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 16:28:47 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:05:12 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:58:56 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:05:06 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 66.13535690307617ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:46:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:53:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 16:28:47 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:05:12 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts. Last mtime: Fri Nov 26 2021 16:58:56 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:05:06 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 102.29505729675293ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:53:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:53:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:05:12 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:06:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 47.932870864868164ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:53:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:53:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:05:12 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:06:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 64.78389739990234ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:53:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:04:56 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:06:10 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:17:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 72.72562026977539ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:53:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:04:56 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:06:10 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:17:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 77.85654640197754ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:04:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:15:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:17:39 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:28:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 49.96768760681152ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:04:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:15:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:17:39 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:28:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 69.94509696960449ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:15:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:15:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:28:00 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:28:37 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 48.04673385620117ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:15:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:15:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:28:00 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:28:37 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 73.27892303466797ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:15:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:17:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:28:37 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:29:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 56.56911087036133ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:15:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:17:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:28:37 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:29:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 67.76775550842285ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:17:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:17:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:29:25 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:30:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 47.75395584106445ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:17:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:17:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:29:25 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:30:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 69.54929733276367ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:17:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:21:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:30:39 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:34:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 37.481292724609375ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:17:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:21:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:30:39 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:34:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 64.26494789123535ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:21:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:22:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:34:39 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:34:53 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 81.65090751647949ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:21:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:22:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:34:39 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 17:34:53 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 84.4301986694336ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:22:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:59:08 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:34:53 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 18:11:47 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 58.512826919555664ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:22:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:59:08 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 17:34:53 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 18:11:47 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 73.60333824157715ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:59:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 18:11:47 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 18:12:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 52.332963943481445ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:59:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 18:11:47 GMT+0800 (中国标准时间), Current mtime: Fri Nov 26 2021 18:12:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 73.36115646362305ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:36 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 09:56:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 18:12:20 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:08:55 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 103.1215934753418ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:59:36 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 09:56:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Fri Nov 26 2021 18:12:20 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:08:55 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 97.11189651489258ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 09:56:05 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 09:56:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:08:55 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:09:35 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 55.825435638427734ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 09:56:05 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 09:56:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:08:55 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:09:35 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 77.04118537902832ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 09:56:45 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 09:59:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:09:35 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:12:29 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 51.697946548461914ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 09:56:45 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 09:59:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:09:35 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:12:29 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 78.45832824707031ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 09:59:46 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:16:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:12:29 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:28:49 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 44.53229904174805ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 09:59:46 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:16:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:12:29 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:28:49 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 71.50118827819824ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:16:01 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:18:12 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:28:49 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:31:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 57.587717056274414ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:16:01 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:18:12 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:28:49 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:31:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 77.42108726501465ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:18:12 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:20:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 35.37460136413574ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:18:12 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:20:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 45.93378448486328ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:20:00 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:21:09 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:32:50 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:33:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 34.25325584411621ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:20:00 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:21:09 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:32:50 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:33:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 56.9883918762207ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:21:09 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:33:03 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:33:59 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:45:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 41.51729393005371ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:21:09 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:33:03 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:33:59 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:45:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 53.48439979553223ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:33:03 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:33:40 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:45:30 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:46:26 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 58.143394470214844ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:33:03 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:33:40 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:45:30 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:46:26 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 72.76188468933105ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:33:40 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:34:29 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:46:26 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:47:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 40.43741416931152ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:33:40 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:34:29 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:46:26 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:47:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 56.21365928649902ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:34:29 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:37:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:47:19 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:50:08 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 46.71099662780762ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:34:29 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:37:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:47:19 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 17:50:08 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 75.73746490478516ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:37:18 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:48:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:50:08 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:01:40 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 38.23947525024414ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:37:18 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:48:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 17:50:08 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:01:40 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 58.18571662902832ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:48:55 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:50:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:01:40 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:02:57 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 50.232112884521484ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:48:55 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:50:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:01:40 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:02:57 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 65.08498191833496ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:50:07 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:51:40 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:02:57 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:04:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 48.19423484802246ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:50:07 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:51:40 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:02:57 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:04:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 60.17924690246582ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:51:40 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:57:59 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:04:30 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:10:48 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 47.079750061035156ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:51:40 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 10:57:59 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:04:30 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 18:10:48 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 64.02996826171875ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:57:59 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:08:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:10:48 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:20:45 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 92.22014999389648ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 10:57:59 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:08:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 18:10:48 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:20:45 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 88.16489791870117ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:08:06 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:16:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 19:20:45 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:28:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:31:00 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:24:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 108.89503860473633ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:08:06 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:16:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 19:20:45 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:28:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts. Last mtime: Sun Nov 28 2021 17:31:00 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:24:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 115.36054992675781ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:16:01 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:17:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 19:28:46 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:29:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 44.746572494506836ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:16:01 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:17:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 19:28:46 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:29:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 63.13593292236328ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:17:00 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:18:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 19:29:46 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:30:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 41.359344482421875ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:17:00 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:18:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/AudioController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/BirdController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/MainController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaBgController.ts.
+debug: Resolve file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts from cce:/internal/x/prerequisite-imports as file:///Users/point/projects/flappy-bird/assets/Script/Toca/TocaMainController.ts.
+debug: Detected change: file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts. Last mtime: Sun Nov 28 2021 19:29:46 GMT+0800 (中国标准时间), Current mtime: Sun Nov 28 2021 19:30:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/point/projects/flappy-bird/assets/Script/Toca/BoxCatController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 70.5035343170166ms.
