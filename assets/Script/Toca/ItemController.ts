@@ -13,6 +13,8 @@ export default class NewClass extends cc.Component {
 
     gravity: number = 10.0;
 
+    isDrag: boolean = false;
+
     onLoad() {
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         this.node.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
@@ -25,7 +27,7 @@ export default class NewClass extends cc.Component {
     }
 
     update(dt) {
-        if (this.position?.y > -400) {
+        if (!this.isDrag && this.position?.y > -400) {
             this.node.getPosition(this.position);
 
             this.position.y -= this.gravity;
@@ -36,6 +38,8 @@ export default class NewClass extends cc.Component {
 
     onTouchStart(touchEvent: cc.Event.EventTouch) {
         this.node.setScale(1.5, 1.5);
+
+        this.isDrag = true
     }
 
     onTouchMove(touchEvent: cc.Event.EventTouch) {
@@ -51,5 +55,7 @@ export default class NewClass extends cc.Component {
 
     onTouchEnd(touchEvent: cc.Event.EventTouch) {
         this.node.setScale(1, 1);
+
+        this.isDrag = false;
     }
 }
