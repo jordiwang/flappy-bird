@@ -15,11 +15,14 @@ export default class NewClass extends cc.Component {
     @property(cc.Sprite)
     background: cc.Sprite = null;
 
+    @property(cc.Button)
+    flappyButton: cc.Button = null;
+
     onLoad() {
         this.init();
     }
 
-    start() {}
+    start() { }
 
     // update (dt) {}
 
@@ -28,6 +31,8 @@ export default class NewClass extends cc.Component {
 
         this.background.node.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.background.node.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
+
+        this.flappyButton.node.on(cc.Node.EventType.TOUCH_END, this.goFlappy, this)
     }
 
     onTouchMove(touchEvent: cc.Event.EventTouch) {
@@ -41,5 +46,9 @@ export default class NewClass extends cc.Component {
         this.mainCamera.node.setPosition(position);
     }
 
-    onTouchEnd() {}
+    onTouchEnd() { }
+
+    goFlappy() {
+        cc.director.loadScene('Main')
+    }
 }
