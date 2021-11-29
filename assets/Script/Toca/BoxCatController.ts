@@ -5,6 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import ABCBinding from '../../../abc-kit/lib/ABCBinding/ABCBinding';
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -18,6 +20,14 @@ export default class NewClass extends cc.Component {
     // update (dt) {}
 
     onTouchEnd() {
-        cc.director.loadScene('Main');
+        ABCBinding.callNativeMethod('media.playSonglist', {
+            song: [
+                {
+                    songid: '105856110',
+                },
+            ],
+        }).then(res => {
+            cc.log(JSON.stringify(res));
+        });
     }
 }

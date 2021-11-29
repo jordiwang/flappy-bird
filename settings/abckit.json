@@ -1,0 +1,20 @@
+{
+	"excludeModules": [
+		"ABCAudioManager",
+		"ABCBackBtn",
+		"ABCCapture",
+		"ABCCategoryView",
+		"ABCFitWidget",
+		"ABCHanzi",
+		"ABCLoader",
+		"ABCPicker",
+		"ABCPopup",
+		"ABCResManager",
+		"ABCSDFLabel",
+		"ABCSceneManager",
+		"ABCToast",
+		"ABCTraceTool",
+		"ABCVideo",
+		"ABClib"
+	]
+}
