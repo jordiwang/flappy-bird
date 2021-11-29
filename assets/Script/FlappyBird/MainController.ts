@@ -47,6 +47,13 @@ export class MainController extends cc.Component {
     @property(cc.Button)
     tocaButton: cc.Button = null;
 
+    @property(cc.Button)
+    spineButton: cc.Button = null;
+
+
+    @property(cc.Button)
+    faceButton: cc.Button = null;
+
     pipeList: cc.Node[] = [null, null, null];
 
     gameState: GAME_STATE = GAME_STATE.GAME_INIT;
@@ -122,6 +129,10 @@ export class MainController extends cc.Component {
         this.buttonStart.node.on(cc.Node.EventType.TOUCH_END, this.gameStart, this);
 
         this.tocaButton.node.on(cc.Node.EventType.TOUCH_END, this.goToca, this);
+
+        this.faceButton.node.on(cc.Node.EventType.TOUCH_END, this.goFace, this)
+
+        this.spineButton.node.on(cc.Node.EventType.TOUCH_END, this.getSpine, this)
     }
 
     gameStart() {
@@ -153,4 +164,16 @@ export class MainController extends cc.Component {
         this.audioController.stopMusic();
         cc.director.loadScene('Toca');
     }
+
+
+    goFace() {
+        this.audioController.stopMusic();
+        cc.director.loadScene('TocaFace');
+    }
+
+    getSpine() {
+        this.audioController.stopMusic();
+        cc.director.loadScene('SpineChangeDress');
+    }
+
 }
